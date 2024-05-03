@@ -239,11 +239,35 @@ body {
 
 .container-4 {
     display: inline-block;
-    height: 100px;
+    height: 200px;
     width: 100%;
+    margin-top: 200px;
+    background-color: #F2F1EC;
+    border: none;
+    border-radius: 10px;
+}
+
+.container-4__des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container-4__des button {
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 150px;
+    background-color: white;
 }
 
 .container-4 img {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    transform: rotate(-10deg);
+    margin-top: 20px;
 }
