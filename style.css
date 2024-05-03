@@ -261,6 +261,7 @@ body {
     height: 40px;
     margin-top: 150px;
     background-color: white;
+    margin-right: 5px;
 }
 
 .container-4 img {
@@ -270,4 +271,42 @@ body {
     border-radius: 20px;
     transform: rotate(-10deg);
     margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Container-5 */
+
+.container-5 {
+    display: inline-block;
+    height: 350px;
+    width: 100%;
+    background-color: #FAF1ED;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.container-5__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+   
+}
+
+.container-5__img--images img {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.container-5__img--images p {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
