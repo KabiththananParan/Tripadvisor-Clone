@@ -310,3 +310,54 @@ body {
     font-size: 15px;
     font-weight: bold;
 }
+
+
+/*container*/
+
+.container-6 {
+    display: inline-block;
+}
+
+.container-6__dis {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.container-6 td {
+    width: 300px;
+}
+
+.container-6 tr {
+    height: 20px;
+}
+
+
+/* Container-7 */
+
+.container-7 {
+    margin-top: 20px;
+    background-color: #FAF1ED;
+    width: 100%;
+}
+
+.container-7__dis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-7__dis-left th {
+    margin-right: 30px;
+}
+
+.container-7__dis-left td {
+    width: 200px;
+}
+
+.container-7__dis-left tr {
+    height: 10px;
+}
