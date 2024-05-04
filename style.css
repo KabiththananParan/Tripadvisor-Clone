@@ -201,7 +201,7 @@ body {
 
 .container-2__img--images p {
     position: absolute;
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
     bottom: 3px;
     margin-left: 5px;
     font-size: 25px;
@@ -346,6 +346,8 @@ body {
     margin-top: 20px;
     background-color: #FAF1ED;
     width: 100%;
+    border: none;
+    border-radius: 10px;
 }
 
 .container-7__dis {
@@ -390,13 +392,18 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    margin-left: 10px;
 }
 
 .container-7__footer--left img{
     height: 30px;
     width: 30px;
     margin-right: 5px;
-}  
+} 
+
+.container-7__footer--right {
+    margin-right: 10px;
+}
 
 .container-7__footer--right--buttons button {
     border: solid black 1px;
