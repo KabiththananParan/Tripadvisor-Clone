@@ -413,3 +413,15 @@ body {
     font-weight: bolder;
     font-size: 15px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width:800px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+    }
+}
