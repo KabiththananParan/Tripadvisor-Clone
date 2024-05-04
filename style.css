@@ -201,10 +201,10 @@ body {
 
 .container-2__img--images p {
     position: absolute;
-    color: #000c07;
-    bottom: 5px;
+    color: rgb(0, 0, 0);
+    bottom: 3px;
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
