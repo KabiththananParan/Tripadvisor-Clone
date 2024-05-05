@@ -16,12 +16,24 @@ body {
     justify-content: space-between;
     align-content: center;
     height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .header__left img {
     height: 30px;
     width: 30px;
     margin-right: 5px;
+}
+
+.header__mid--2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    display: none;
 }
 
 .header__left, .header__mid, .header__right {
@@ -372,6 +384,10 @@ body {
     width: 200px;
 }
 
+.container-7__dis-left--2 {
+    display: none;
+}
+
 .container-7__dis-right {
     margin-top: 0%;
 }
@@ -422,6 +438,19 @@ body {
 
 @media screen and (max-width:600px) {
     body {
-        font-size: 10px;
+        font-size: 15px;
+        max-width: 600px;
+    }
+
+    .container-2, .container-3, .container-4, .container-5, .container-6 {
+        margin-left: 10px;
+    }
+
+    .container-7__dis-left--2 {
+        display: block;
+    }
+
+    .container-7__dis-left {
+        display: none;
     }
 }
